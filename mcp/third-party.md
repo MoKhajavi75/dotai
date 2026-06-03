@@ -1,5 +1,5 @@
-- [Shadcn](https://ui.shadcn.com/docs/mcp#quick-start)
+# MCP
 
-```bash
-pnpx shadcn@latest mcp init --client claude
-```
+| Name   | Link                                               | Command                                       |
+| ------ | -------------------------------------------------- | --------------------------------------------- |
+| Shadcn | [link](https://ui.shadcn.com/docs/mcp#quick-start) | `pnpx shadcn@latest mcp init --client claude` |
