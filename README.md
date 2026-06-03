@@ -11,6 +11,7 @@ My Claude Code setup — commands, skills, MCPs, and prompts.
 | `plugins/`  | `third-party.md` install list + plugins to install.     |
 | `prompts/`  | Reusable prompts                                        |
 | `skills/`   | `third-party.md` install list + my hand-written skills. |
+| `tools/`    | `third-party.md` install list — standalone CLIs.        |
 
 ## Install
 
