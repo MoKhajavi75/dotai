@@ -11,6 +11,7 @@ My Claude Code setup — commands, skills, MCPs, plugins, and tools.
 | [`mcp/`](./mcp/)           | `third-party.md` list of MCP servers to install.                       |
 | [`plugins/`](./plugins/)   | `third-party.md` list of plugins to install.                           |
 | [`tools/`](./tools/)       | `third-party.md` list of standalone CLIs to install.                   |
+| [`config/`](./config/)     | Loose config + scripts symlinked into `~/.claude` (e.g. statusline).   |
 
 ## Install
 

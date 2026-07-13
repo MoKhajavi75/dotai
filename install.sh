@@ -27,4 +27,7 @@ for d in "${REPO}"/skills/*/; do
   link "${d%/}" "${CLAUDE}/skills/$(basename "${d}")"
 done
 
+# statusline script -> ~/.claude/ (referenced by settings.json statusLine)
+link "${REPO}/config/statusline-command.sh" "${CLAUDE}/statusline-command.sh"
+
 echo "done!"
