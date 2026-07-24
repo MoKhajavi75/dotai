@@ -1,9 +1,10 @@
 # MCP
 
-| Name   | Link                                               | Command                                                                  |
-| ------ | -------------------------------------------------- | ------------------------------------------------------------------------ |
-| GitMCP | [link](https://github.com/idosal/git-mcp)          | `claude mcp add gitmcp -s user -- npx mcp-remote https://gitmcp.io/docs` |
-| Shadcn | [link](https://ui.shadcn.com/docs/mcp#quick-start) | `pnpx shadcn@latest mcp init --client claude`                            |
+| Name     | Link                                               | Command                                                                                                            |
+| -------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Context7 | [link](https://github.com/upstash/context7)        | `claude mcp add --scope user --header "CONTEXT7_API_KEY: YOUR_API_KEY" --transport http context7 https://mcp.context7.com/mcp` |
+| GitMCP   | [link](https://github.com/idosal/git-mcp)          | `claude mcp add gitmcp -s user -- npx mcp-remote https://gitmcp.io/docs`                                          |
+| Shadcn   | [link](https://ui.shadcn.com/docs/mcp#quick-start) | `pnpx shadcn@latest mcp init --client claude`                                                                     |
 
 ## Extras
 
