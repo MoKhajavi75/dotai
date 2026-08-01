@@ -1,4 +1,5 @@
 ---
+name: estimate
 description: Estimate VPS RAM/CPU for an app
 argument-hint: '[app or stack description]'
 allowed-tools: Read, Grep, Glob, Bash(ls*), Bash(cat*)

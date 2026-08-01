@@ -1,4 +1,5 @@
 ---
+name: commit
 description: Create atomic git commits
 argument-hint: '[optional scope or focus]'
 allowed-tools: Bash(git*), Read, Edit

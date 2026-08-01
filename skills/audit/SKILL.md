@@ -1,4 +1,5 @@
 ---
+name: audit
 description: Audit the codebase for production readiness
 argument-hint: '[optional path or area to focus]'
 allowed-tools: Read, Grep, Glob, Bash(ls*), Bash(cat*), Bash(git*)
