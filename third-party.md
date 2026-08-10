@@ -8,10 +8,13 @@ My own stuff lives in [`skills/`](./skills/) — see the [README](./README.md#my
 | Name          | Link                                                                            | Command                                                                                                |
 | ------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
 | Agent Browser | [link](https://agent-browser.dev/installation#ai-coding-assistants-recommended) | `pnpx skills add vercel-labs/agent-browser -a claude-code -y`                                          |
+| Book to Skill | [link](https://github.com/virgiliojr94/book-to-skill)                           | `git clone https://github.com/virgiliojr94/book-to-skill.git ~/.claude/skills/book-to-skill`           |
 | ElysiaJS      | [link](https://elysiajs.com/table-of-content.html#ai-skills-for-llms)           | `pnpx skills add elysiajs/skills -a claude-code -y`                                                    |
 | Humanizer     | [link](https://github.com/blader/humanizer)                                     | `pnpx skills add https://github.com/blader/humanizer -a claude-code -y`                                |
 | No AI Slop    | [link](https://github.com/petergyang/no-ai-slop)                                | `pnpx skills add https://github.com/petergyang/no-ai-slop -a claude-code -y`                           |
 | Playwright    | [link](https://github.com/microsoft/playwright-cli)                             | `pnpx skills add https://github.com/microsoft/playwright-cli --skill playwright-cli -a claude-code -y` |
+
+> Book to Skill converts a book/doc/folder into a skill — run `/book-to-skill <path>` after cloning.
 
 ### Collections
 
@@ -21,6 +24,7 @@ Multi-skill repos — installing pulls every skill in the repo.
 | ------------- | ---------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------- |
 | Emil Kowalski | [link](https://github.com/emilkowalski/skills) | Design engineering — animation, motion, UI taste.     | `pnpx skills add emilkowalski/skills -a claude-code -y` |
 | Matt Pocock   | [link](https://github.com/mattpocock/skills)   | Engineering workflow — TDD, review, specs, debugging. | `pnpx skills add mattpocock/skills -a claude-code -y`   |
+| Meng To       | [link](https://github.com/MengTo/skills)       | 123 skills — web design, WebGL, Three.js games, UI.   | `pnpx skills add MengTo/skills -a claude-code -y`       |
 
 > Matt Pocock's repo also ships as a plugin (`/plugin marketplace add mattpocock/skills` → `/plugin install mattpocock-skills@mattpocock`). Run `/setup-matt-pocock-skills` once after install.
 
@@ -38,11 +42,12 @@ Multi-skill repos — installing pulls every skill in the repo.
 
 ## MCP
 
-| Name     | Link                                               | Command                                                                                                                        |
-| -------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| Context7 | [link](https://github.com/upstash/context7)        | `claude mcp add --scope user --header "CONTEXT7_API_KEY: YOUR_API_KEY" --transport http context7 https://mcp.context7.com/mcp` |
-| GitMCP   | [link](https://github.com/idosal/git-mcp)          | `claude mcp add gitmcp -s user -- npx mcp-remote https://gitmcp.io/docs`                                                       |
-| Shadcn   | [link](https://ui.shadcn.com/docs/mcp#quick-start) | `pnpx shadcn@latest mcp init --client claude`                                                                                  |
+| Name            | Link                                                    | Command                                                                                                                        |
+| --------------- | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Codebase Memory | [link](https://github.com/DeusData/codebase-memory-mcp) | `curl -fsSL https://raw.githubusercontent.com/DeusData/codebase-memory-mcp/main/install.sh \| bash`                            |
+| Context7        | [link](https://github.com/upstash/context7)             | `claude mcp add --scope user --header "CONTEXT7_API_KEY: YOUR_API_KEY" --transport http context7 https://mcp.context7.com/mcp` |
+| GitMCP          | [link](https://github.com/idosal/git-mcp)               | `claude mcp add gitmcp -s user -- npx mcp-remote https://gitmcp.io/docs`                                                       |
+| Shadcn          | [link](https://ui.shadcn.com/docs/mcp#quick-start)      | `pnpx shadcn@latest mcp init --client claude`                                                                                  |
 
 ### Canvas UI — shadcn registry
 
