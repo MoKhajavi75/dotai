@@ -1,13 +1,13 @@
 # dotAI
 
-My Claude Code setup — my own skills, plus the third-party skills, MCPs, plugins, and tools I install.
+My Claude Code setup — my own skills, plus the third-party skills, MCPs, plugins, tools, and libraries I install.
 
 ## Structure
 
 | Path                                 | What's inside                                                            |
 | ------------------------------------ | ------------------------------------------------------------------------ |
 | [`skills/`](./skills/)               | My skills — one folder each. See [`skills/README.md`](./skills/).        |
-| [`third-party.md`](./third-party.md) | Everything I install from elsewhere: skills, plugins, MCP servers, CLIs. |
+| [`third-party.md`](./third-party.md) | Everything I install from elsewhere: skills, plugins, MCPs, CLIs, libs. |
 | [`config/`](./config/)               | Loose config that isn't a skill (e.g. statusline).                       |
 
 ## Statusline

@@ -1,6 +1,6 @@
 # Third-party
 
-Everything I install from elsewhere — skills, plugins, MCP servers, standalone CLIs.
+Everything I install from elsewhere — skills, plugins, MCP servers, standalone CLIs, libraries.
 My own stuff lives in [`skills/`](./skills/) — see the [README](./README.md#my-skills).
 
 ## Skills
@@ -70,3 +70,13 @@ Pattern: `https://canvasui.dev/r/[component]-[framework].json` — framework is 
 | Graphify     | [link](https://github.com/Graphify-Labs/graphify) | `uv tool install graphifyy`<br>`graphify install`<br>`/graphify .`                                                                            |
 | RTK          | [link](https://github.com/rtk-ai/rtk)             | `brew install rtk-ai/tap/rtk`<br>`rtk init --global`                                                                                          |
 | SkillSpector | [link](https://github.com/NVIDIA/SkillSpector)    | `git clone https://github.com/NVIDIA/skillspector.git`<br>`cd skillspector`<br>`uv venv .venv && source .venv/bin/activate`<br>`make install` |
+
+## Libraries
+
+Not Claude Code add-ons — packages I pull into projects.
+
+| Name       | Link                                                | About                                                             | Command                |
+| ---------- | --------------------------------------------------- | ----------------------------------------------------------------- | ---------------------- |
+| Morphicons | [link](https://github.com/guillermolg00/morphicons) | Universal morphing between stroke icons, spring physics, ~7 KB gz. | `pnpm add morphicons` |
+
+> ESM-only. Optional bindings for React 18+, Vue 3.3+, Svelte 5+, React Native 0.71+ (needs `react-native-svg` 14+).
