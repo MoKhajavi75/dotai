@@ -67,9 +67,12 @@ Pattern: `https://canvasui.dev/r/[component]-[framework].json` — framework is 
 
 | Name         | Link                                              | Command                                                                                                                                       |
 | ------------ | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| Autoskills   | [link](https://github.com/midudev/autoskills)     | `pnpx autoskills`                                                                                                                             |
 | Graphify     | [link](https://github.com/Graphify-Labs/graphify) | `uv tool install graphifyy`<br>`graphify install`<br>`/graphify .`                                                                            |
 | RTK          | [link](https://github.com/rtk-ai/rtk)             | `brew install rtk-ai/tap/rtk`<br>`rtk init --global`                                                                                          |
 | SkillSpector | [link](https://github.com/NVIDIA/SkillSpector)    | `git clone https://github.com/NVIDIA/skillspector.git`<br>`cd skillspector`<br>`uv venv .venv && source .venv/bin/activate`<br>`make install` |
+
+> Autoskills scans the project (package.json, Gradle, configs), detects the stack, and installs matching skills from its audited registry. Per-project, not global — run in project root. `--dry-run` to preview, `-y` to skip the prompt.
 
 ## Libraries
 
