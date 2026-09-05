@@ -14,7 +14,7 @@ input=$(cat)
 US=$(printf '\037')
 parsed=$(printf '%s' "${input}" | jq -r --arg us "${US}" '[
   (.model.display_name),
-  (.workspace.current_dir // .cwd // ""),
+  (.workspace.project_dir // .workspace.current_dir // .cwd // ""),
   ((.context_window.current_usage.input_tokens // 0)
    + (.context_window.current_usage.cache_creation_input_tokens // 0)
    + (.context_window.current_usage.cache_read_input_tokens // 0)),
