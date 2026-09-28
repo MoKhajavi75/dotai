@@ -34,7 +34,7 @@ State lives in `ROADMAP.md` in the project root, with a ledger of every shortcut
 
 ## [`audit`](./audit/) — production readiness
 
-Audits the repo for bugs, security holes, leaks, N+1s, dead weight, and missing production basics. Reports only, never fixes. Every finding cites `file:line`; ends with a ready / blockers-remain verdict.
+Principal-engineer review before launch: bugs, security holes and data leaks, DB schema and index problems, performance, reliability, concurrency, observability, architecture, and dead weight. Traces the hot paths end to end, then proposes concrete fixes, including DB migrations with DDL, zero-downtime notes, and the `EXPLAIN` to verify them. Asks before spawning parallel agents on big repos. Reports only, never fixes. Every finding cites `file:line`; ends with a verdict and a fix order.
 
 ```
 /audit [optional path or area]
