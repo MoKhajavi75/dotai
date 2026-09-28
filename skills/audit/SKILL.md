@@ -89,6 +89,7 @@ Read `references/database.md` and apply it. Review the schema (migrations, ORM m
 
 - Layering violations (HTTP handlers running SQL directly across the codebase, business logic in controllers or UI).
 - God files and functions, circular dependencies, copy-pasted logic that has already diverged.
+- **Reuse opportunities:** repeated logic, queries, validation, or UI blocks (3+ copies, or 2 that must stay in sync) that belong in one shared function, hook, or component. List every location, name the extraction and where it lives. Skip coincidental similarity: code that looks alike but changes for different reasons stays separate.
 - Premature abstractions with one implementation; leaky abstractions forcing callers to know internals.
 - Config scattered as magic values; no single validated config module.
 - Only flag what has a real cost. Taste is not a finding.
