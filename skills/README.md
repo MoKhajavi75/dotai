@@ -42,7 +42,7 @@ Principal-engineer review before launch: bugs, security holes and data leaks, DB
 
 ## [`commit`](./commit/) — atomic commits
 
-Splits the working tree into one logical change per commit, staging hunks where a file mixes concerns. Conventional Commits, subject only, ≤50 chars, respects repo commitlint config. Never pushes.
+Splits the working tree into one logical change per commit, staging hunks where a file mixes concerns, ordered so each commit builds on its own. Conventional Commits, ≤50 char subject, plus a short body explaining why only when the diff can't. Matches repo history and commitlint config, stops on secrets or debug leftovers, never skips hooks, never pushes.
 
 ```
 /commit [optional scope or focus]
