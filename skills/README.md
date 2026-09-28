@@ -40,6 +40,15 @@ Principal-engineer review before launch: bugs, security holes and data leaks, DB
 /audit [optional path or area]
 ```
 
+## [`qa`](./qa/) — test coverage review
+
+Senior QA pass: maps features into risk-ranked scenarios across unit, integration, component, E2E, and native layers, checks which ones existing tests really prove, runs the suite, and triages red tests as bug, broken test, or flaky. Reports by default; `write` adds the missing tests, mocks only at boundaries, proves each new test can fail, and never forces green. Real bugs stay red and get reported, not patched. Asks before spawning parallel agents on big repos.
+
+```
+/qa [optional path or feature]         report gaps and suspected bugs
+/qa write [scenario IDs | critical]    write the missing tests
+```
+
 ## [`commit`](./commit/) — atomic commits
 
 Splits the working tree into one logical change per commit, staging hunks where a file mixes concerns, ordered so each commit builds on its own. Conventional Commits, ≤50 char subject, plus a short body explaining why only when the diff can't. Matches repo history and commitlint config, stops on secrets or debug leftovers, never skips hooks, never pushes.
